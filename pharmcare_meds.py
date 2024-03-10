@@ -4,8 +4,6 @@ import csv
 import random
 
 app = Flask(__name__)
-
-
 CORS(app)
 
 @app.route('/search', methods=['POST'])
